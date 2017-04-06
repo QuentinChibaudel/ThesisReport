@@ -1,0 +1,48 @@
+\documentclass[a4paper,12pt]{report}
+
+\usepackage[utf8]{inputenc}
+\usepackage[latin1]{inputenc}    
+\usepackage[francais]{babel}   
+\usepackage{layout}
+\usepackage{url}
+\usepackage{graphicx}
+\usepackage{wrapfig}
+\usepackage{lmodern}
+\usepackage[top=2cm, left=2.5cm, right=2.5cm, bottom=2cm]{geometry}
+
+\title{Titre de la thèse}
+\author{Quentin Chibaudel}
+\date{Juin 2016}
+
+\begin{document}
+
+\begin{titlepage}
+    \begin{center}
+
+    \huge{\textbf{}}\\
+    \vspace{0.5cm}
+    \textbf{Titre de la thèse}\\
+    \vspace{1cm}
+    \textit{\large{
+    Quentin CHIBAUDEL\\
+    Sous la direction de Véronique Lespinet-Najib}}
+    \vspace{1.5cm}
+    
+    \vfill
+    \normalsize{IMS - CIH (CNRS UMR 5218)}\\
+    \normalsize{\today}\\
+    \end{center}
+
+\end{titlepage}
+
+\newpage
+\input{introduction.tex}
+\newpage
+\input{accesAuxSoins.tex}
+\newpage
+\input{handicap.tex}
+\newpage{}
+\input{dispositifMedical.tex}
+\newpage 
+\input{biblio.tex}
+\end{document}
